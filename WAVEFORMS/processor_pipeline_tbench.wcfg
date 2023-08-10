@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/eleot/ORGANWSH VHDL PROJECT/PROJECT/PROCESSOR_PIPELINE_TB_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="my_matrix" />
+            <top_module name="numeric_std" />
+            <top_module name="processor_pipeline_tb" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_textio" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="textio" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="17" />
+   <wvobject fp_name="/processor_pipeline_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#0000ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_pipeline_tb/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_pipeline_tb/instr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">instr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instr[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_pipeline_tb/uut/datapath/decstage_port/instr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">instr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instr[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_pipeline_tb/wren" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wren</obj_property>
+      <obj_property name="ObjectShortName">wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_pipeline_tb/pc" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_pipeline_tb/mm_addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mm_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mm_addr[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_pipeline_tb/uut/datapath/decstage_port/register_file_Rf/reg_output[1]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[1]</obj_property>
+      <obj_property name="ObjectShortName">reg_output[1]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_pipeline_tb/uut/datapath/decstage_port/register_file_Rf/reg_output[2]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[2]</obj_property>
+      <obj_property name="ObjectShortName">reg_output[2]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_pipeline_tb/uut/datapath/decstage_port/register_file_Rf/reg_output[3]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[3]</obj_property>
+      <obj_property name="ObjectShortName">reg_output[3]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_pipeline_tb/uut/datapath/decstage_port/register_file_Rf/reg_output[4]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[4]</obj_property>
+      <obj_property name="ObjectShortName">reg_output[4]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_pipeline_tb/uut/datapath/decstage_port/register_file_Rf/reg_output[5]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[5]</obj_property>
+      <obj_property name="ObjectShortName">reg_output[5]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_pipeline_tb/uut/datapath/decstage_port/register_file_Rf/reg_output[10]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[10]</obj_property>
+      <obj_property name="ObjectShortName">reg_output[10]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_pipeline_tb/uut/datapath/decstage_port/register_file_Rf/reg_output[16]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[16]</obj_property>
+      <obj_property name="ObjectShortName">reg_output[16]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_pipeline_tb/mem/ramx2048[257]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[257]</obj_property>
+      <obj_property name="ObjectShortName">ramx2048[257]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_pipeline_tb/mem/ramx2048[256]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[256]</obj_property>
+      <obj_property name="ObjectShortName">ramx2048[256]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_pipeline_tb/mem/ramx2048[258]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[258]</obj_property>
+      <obj_property name="ObjectShortName">ramx2048[258]</obj_property>
+   </wvobject>
+</wave_config>
